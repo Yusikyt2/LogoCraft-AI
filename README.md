@@ -1,20 +1,42 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# LogoCraft AI 🎨
 
-# Run and deploy your AI Studio app
+Профессиональный редактор логотипов с инструментами анимации и готовыми шаблонами.
 
-This contains everything you need to run your app locally.
+## 🚀 Как запустить локально
 
-View your app in AI Studio: https://ai.studio/apps/8ea04f22-2e2b-4f98-b55c-3bcd8822acd9
+1. Убедитесь, что у вас установлен **Node.js**.
+2. Склонируйте репозиторий.
+3. Установите зависимости:
+   ```bash
+   npm install
+   ```
+4. Запустите сервер для разработки:
+   ```bash
+   npm run dev
+   ```
+5. Откройте `http://localhost:3000` в браузере.
 
-## Run Locally
+## 📦 Сборка и Деплой
 
-**Prerequisites:**  Node.js
+### Сборка проекта
+Для создания оптимизированной сборки выполните:
+```bash
+npm run build
+```
+Файлы будут находиться в папке `dist/`.
 
+### Деплой на GitHub Pages
+1. В `package.json` убедитесь, что скрипты `predeploy` и `deploy` настроены.
+2. Выполните команду:
+   ```bash
+   npm run deploy
+   ```
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## ✨ Особенности
+- **Интерактивный холст**: Drag-and-drop элементов.
+- **Анимации**: Настройка скорости и направления.
+- **Экспорт**: Сохранение в PNG и запись видео (MP4/WebM).
+- **Шаблоны**: Быстрый старт с готовыми дизайнами.
+
+---
+Создано с помощью **Google AI Studio Build**.
